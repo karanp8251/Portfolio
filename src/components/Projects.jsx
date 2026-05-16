@@ -7,29 +7,22 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "AI Medical Assistant",
-    description: "A machine learning based medical assistant that analyzes symptoms and suggests possible diagnoses. Built with Python, TensorFlow, and React.",
+    title: "AI Plant Deasise Detection Assistant",
+    description: "A machine learning based Plant Deasise Detection assistant that analyzes symptoms and suggests possible diagnoses. Built with Python, TensorFlow, and React.",
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     tech: ["React", "Python", "TensorFlow", "FastAPI"],
-    github: "#",
-    live: "#"
+    github: "https://github.com/karanp8251/plant-Disease-detection",
+    live: "portfolio-wine-eta-99.vercel.app"
   },
   {
-    title: "Smart Traffic Control",
-    description: "An intelligent traffic management system prioritizing ambulances using computer vision and edge computing.",
+    title: "SafeCross: Automatic Railway gate system",
+    description: "An intelligent  Railway Gate Crossing Detection system prioritizing ambulances using computer vision and edge computing.",
     image: "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    tech: ["OpenCV", "Python", "React", "Node.js"],
-    github: "#",
+    tech: ["OpenCV", "Python", "React", "Embadded System", "Node.js"],
+    github: "https://github.com/karanp8251/SAFECROSS-Automatic-Railway-Crossing-Gate-System",
     live: "#"
   },
-  {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with Stripe integration, Redux state management, and an admin dashboard.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    tech: ["Next.js", "MongoDB", "Stripe", "Tailwind"],
-    github: "#",
-    live: "#"
-  }
+
 ];
 
 const Projects = () => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import profileImg from '../assets/K_Photo.jpeg';
+import profileImg from '../assets/K_Photo.png';
 
 const Hero = () => {
   const textRef = useRef(null);
@@ -46,12 +46,18 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
-            <button className="px-8 py-3 bg-primary hover:bg-accent text-white rounded-full font-medium transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(124,58,237,0.5)]">
+            <a
+              href="#projects"
+              className="px-8 py-3 bg-primary hover:bg-accent text-white rounded-full font-medium transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(124,58,237,0.5)]"
+            >
               View Projects
-            </button>
-            <button className="px-8 py-3 bg-transparent border-2 border-secondary text-secondary hover:bg-secondary/10 rounded-full font-medium transition-all transform hover:scale-105">
+            </a>
+            <a
+              href="#contact"
+              className="px-8 py-3 bg-transparent border-2 border-secondary text-secondary hover:bg-secondary/10 rounded-full font-medium transition-all transform hover:scale-105"
+            >
               Contact Me
-            </button>
+            </a>
           </div>
 
           <div className="flex items-center gap-6 mt-12 justify-center md:justify-start">
@@ -71,7 +77,7 @@ const Hero = () => {
           <div className="relative w-30 h-30 md:w-80 md:h-80 rounded-full p-2 bg-gradient-to-r from-primary to-secondary shadow-[0_0_40px_rgba(124,58,237,0.4)] animate-pulse">
             <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden border-4 border-background">
               {/* Profile image */}
-              <img src={""} alt="Karan Patel" className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-300" />
+              <img src={profileImg} alt="Karan Patel" className="w-full h-full object-cover object-[center_25%] opacity-80 hover:opacity-100 transition-opacity duration-300" />
             </div>
           </div>
         </div>

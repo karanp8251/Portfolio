@@ -57,19 +57,19 @@ const About = () => {
                 </div>
                 <div className="w-px bg-white/10 mx-2"></div>
                 <div className="text-center">
-                  <span className="block text-3xl font-bold text-secondary font-heading">15+</span>
+                  <span className="block text-3xl font-bold text-secondary font-heading">7+</span>
                   <span className="text-sm text-gray-400">Projects</span>
                 </div>
                 <div className="w-px bg-white/10 mx-2"></div>
                 <div className="text-center">
-                  <span className="block text-3xl font-bold text-accent font-heading">5</span>
+                  <span className="block text-3xl font-bold text-accent font-heading">9+</span>
                   <span className="text-sm text-gray-400">Hackathons</span>
                 </div>
               </div>
 
-              <a href="https://docs.google.com/document/d/1r6C6IhHf_1opRZWId5SC3Cg1_3qEbZS9/edit?usp=drive_link&ouid=116762078344070853264&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="mt-8 flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full font-medium transition-all text-white w-max group">
+              <a href="KARAN_CLG_RESUME outside.docx" download="Karan_Patel_Resume.docx" className="mt-8 flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full font-medium transition-all text-white w-max group">
                 <FiDownload className="group-hover:-translate-y-1 transition-transform" />
-                View Resume
+                Download Resume
               </a>
             </div>
           </div>

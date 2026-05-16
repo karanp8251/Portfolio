@@ -106,7 +106,7 @@ const Skills = () => {
             <span className="mx-8">DOCKER</span>
             <span className="mx-8">MONGODB</span>
             <span className="mx-8">REACT</span>
-            <span className="mx-8">PYTHON</span>
+            <span className="mx-8">PYTHON</span>                                     
             <span className="mx-8">TAILWIND</span>
             <span className="mx-8">NODE.JS</span>
           </div>
