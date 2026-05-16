@@ -12,7 +12,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     tech: ["React", "Python", "TensorFlow", "FastAPI"],
     github: "https://github.com/karanp8251/plant-Disease-detection",
-    live: "portfolio-wine-eta-99.vercel.app"
+    live: "https://plant-disease-detection-69s68rk6u-karanp8251s-projects.vercel.app"
   },
   {
     title: "SafeCross: Automatic Railway gate system",
